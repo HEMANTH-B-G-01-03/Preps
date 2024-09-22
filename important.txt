@@ -1,0 +1,19 @@
+Chocolate distribution                  (choco.cpp)
+Parking lot 
+String tranformation                    (Changecase.cpp  , toupper.cpp , tolower.cpp)
+array equilibrium 
+array rotation              
+subsrting search    
+palindrome check                          (palindrome.cpp)
+reverse check 
+find 2 number with sum N                    (sum.cpp)
+Maximum subarray Sum 
+Square Root and differnce 
+reverse and add     
+fibonacci sum 
+calculate prime sum 
+check if the give array contain the sum    (twosum.cpp)
+Character  replacement 
+find max value in array and return its index value      (maxele.cpp)
+find MIN value in array and return its index value      
+count the occurance of element in the array .      (occurance.cpp)
