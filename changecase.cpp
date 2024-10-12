@@ -3,9 +3,6 @@
 //if upper case is more , then convt to upper case all else convert all to lower case .
 
 
-
-
-
 // concept of ascii value   A->65   to Z->90      a->97 to z->122    upper to lower +32    lower to upper -32 
 
 #include<iostream>
@@ -55,3 +52,4 @@ int main(){
      cout<<sol;
     return  0;
 }
+
