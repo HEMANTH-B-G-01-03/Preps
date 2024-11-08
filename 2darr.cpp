@@ -8,13 +8,13 @@
     cout<<"enter the number of type of matrix"<<endl;
     cin>>n;
      if( n=1){
-       // int a[n];
+    
         int p;
         cout<<" enter the number of elemets";
         cin>>p;
         int a[p];
        for( int i=0;i<n;i++){
-        cin>>a[n];
+        cin>>a[i];
        }
        int tar;
        cout<<" enter the target \n";
@@ -35,6 +35,17 @@
             for( int j=0;j<r;j++){
                 cout<<"enter the element at the place ";
                 cin>>b[i][j];
+                
+            }
+            int tar;
+            cout<<" enter the tar";
+            cin>>tar;
+            for( int i=0;i<q;i++){
+                for( int j=0;j<r;j++){
+                     if(tar==b[i][j]){
+                         cout<<" found in the 2d arrayt";
+                     }
+                }
             }
         }
      }

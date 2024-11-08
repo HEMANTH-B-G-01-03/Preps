@@ -24,6 +24,8 @@ return "no it is not an armstrong number ";
 }
 
 }
+
+
 int main(){
     int n;
     cin>>n;
