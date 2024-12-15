@@ -1,5 +1,5 @@
 #include<iostream>
- #include<algorithm>
+#include<algorithm>
 #include<vector>
  using namespace std;
 // to find the elemt in the 2 d arrat or multi d array
@@ -7,6 +7,7 @@
     int n ;
     cout<<"enter the number of type of matrix"<<endl;
     cin>>n;
+
      if( n=1){
     
         int p;

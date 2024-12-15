@@ -28,6 +28,7 @@ return "no it is not an armstrong number ";
 
 int main(){
     int n;
+    cout<<" enter the number to checked ";
     cin>>n;
     string ans=arm(n);
     cout<<ans<<endl;

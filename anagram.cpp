@@ -33,7 +33,7 @@ int main()
     cout<<"enter the second string ";
     cin>>b;
   if(anagram(a,b)){
-     cout<<" it is anaram ";
+     cout<<" it is anagram ";
   }
   else {
      cout<<" it is not anagram ";
