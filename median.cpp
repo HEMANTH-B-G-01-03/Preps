@@ -17,10 +17,33 @@
 
 # include<iostream>
 #include<vector>
-#include<math>
+#include<math.h>
 int main(){
-    int num1[]={1,3};
-    int num2[]={2};
+    #include<algorithm>
+#include<vector>
+#include<cmath>
+
+int main() {
+
+        
+        vector<int>a=nums1;
+        a.insert(a.end(),nums2.begin(),nums2.end());
+        
+        sort(a.begin(),a.end());
+
+        int n=a.size();
+        if(n%2==0){
+            return ( (a[(n/2)-1]+a[n/2]) /2.0);
+        }
+        else{
+            return (a[n/2]);
+        }
+
+        
+
+       
+    }
+};
 
 }
  
