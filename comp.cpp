@@ -11,7 +11,7 @@ int ans(int speed[], int n, int mincomp, int threshold) {  // Fixed function sig
         int sum = 0;
         int num_comp = 0;
         bool isvalid = false;
-
+           
         for (int j = i; j < n; j++) {
             sum += speed[j];
             num_comp++;
