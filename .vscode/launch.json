@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Accenture/.vscode/Preps",
-      "program": "d:/Accenture/.vscode/Preps/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
