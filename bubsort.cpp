@@ -67,4 +67,3 @@ void printarr(int a[], int n) {
  printarr(a , n);
     return 0;
  }
-

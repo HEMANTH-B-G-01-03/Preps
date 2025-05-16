@@ -7,14 +7,14 @@ using namespace std;
 
 void bubsort(int a[], int n ){
 for(int i =0;i<n-1;i++){
-  int small_idx=i; // unsoted part starting  
+  int small_idx=i; // unsoted
   for(int j=i+1;j<n;j++) {
     if(a[j]<a[small_idx]){
         small_idx = j;
     }
-   
+    swap(a[i],a[small_idx]);
   }
- swap(a[i],a[small_idx]);
+
     }
 }
 
