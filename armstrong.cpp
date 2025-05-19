@@ -3,34 +3,28 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-string arm(int n){
-
-
+bool arm(int n){
 int temp=n;
-
 int sum=0;
-
 while(n>0){
-
 int m=n%10;
 sum=sum+(m*m*m);
 n=n/10;
 }
-if(temp==sum){
-    return "yes it is armstrong number";
-}
-else{
-return "no it is not an armstrong number ";
-}
+return (sum == temp);
 
 }
-
 
 int main(){
     int n;
     cout<<" enter the number to checked ";
     cin>>n;
-    string ans=arm(n);
-    cout<<ans<<endl;
+    bool ans=arm(n);
+   if(ans == true){
+    cout<<"yes it is armstrong number";
+}
+else{
+cout<<"no it is not an armstrong number ";
+}
     return 0;
 }
