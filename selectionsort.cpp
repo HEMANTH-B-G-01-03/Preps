@@ -5,7 +5,7 @@
 using namespace std;
 #include<algorithm>
 
-void bubsort(int a[], int n ){
+void selcsort(int a[], int n ){
 for(int i =0;i<n-1;i++){
   int small_idx=i; // unsoted
   for(int j=i+1;j<n;j++) {
@@ -28,7 +28,7 @@ void printarr(int a[], int n) {
  int  n =5;
  int a[]= { 4 , 2 , 1 , 6 , 3 , 9};
 
- bubsort(a , n);
+ selcsort(a , n);
  printarr(a , n);
     return 0;
  }

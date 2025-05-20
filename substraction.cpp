@@ -3,7 +3,7 @@
 using namespace std;
 string eleminatestring(string &s1, string &s2){
 unordered_set<char> charset;
-for(char c:s2){
+for(char c: s2){
     charset.insert(c);
 }
 string res;
