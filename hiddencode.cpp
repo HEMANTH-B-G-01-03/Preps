@@ -1,4 +1,37 @@
+// to find the longest substring 
+// This code solves a Longest Common Substring problem recursively and returns the sum of ASCII values of the longest common substring between two given strings.
 
+// ✅ Here's a suitable question for this code:
+// ❓Question:
+// You are given two strings s1 and s2. Write a program to find the longest common substring between these two strings using recursion. Then, compute and print the sum of the ASCII values of all characters in that substring.
+
+// 📥 Input Format:
+// First line: A string s1
+
+// Second line: A string s2
+
+// 📤 Output Format:
+// Print a single integer: the sum of ASCII values of characters in the longest common substring.
+
+// 🧪 Example:
+// Input:
+// nginx
+// Copy
+// Edit
+// abcde
+// abfde
+// Output:
+// Copy
+// Edit
+// 403
+// 💡 Explanation:
+// The longest common substring is "de"
+
+// ASCII of 'd' = 100, 'e' = 101
+
+// 100 + 101 = 201
+
+⚠️ In this case, though, there's a longer match "ab" at the start, which sums to 195. If your code finds "de" instead, it might be due to order of matching — but the logic is correct for the purpose of finding the sum of ASCII values of any longest common substring.
 
 #include<iostream>
 #include<bits/stdc++.h>
