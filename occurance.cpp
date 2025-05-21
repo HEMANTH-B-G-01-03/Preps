@@ -3,17 +3,29 @@
 #include<conio.h>
 
 using namespace std ;
-int times(string a, char b ){
-int count =0;
-int size=a.size();
+// int times(string a, char b ){
+// int count =0;
+// int size=a.size();
 
-for( int i=0;i<size;i++){
-       char currchar=a[i];
-       if (currchar==b){
-        count++;
-       }
+// for( int i=0;i<size;i++){
+//        char currchar=a[i];
+//        if (currchar==b){
+//         count++;
+//        }
+//     }
+//     return count ;
+// }
+
+
+int times(string &a, char b) {
+
+    int count=0;
+    for(char c : a) {
+        if(c == b){
+            count++;
+        }
     }
-    return count ;
+    return count;
 }
 
 int main(){
