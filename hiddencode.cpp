@@ -31,7 +31,7 @@
 
 // 100 + 101 = 201
 
-⚠️ In this case, though, there's a longer match "ab" at the start, which sums to 195. If your code finds "de" instead, it might be due to order of matching — but the logic is correct for the purpose of finding the sum of ASCII values of any longest common substring.
+// ⚠️ In this case, though, there's a longer match "ab" at the start, which sums to 195. If your code finds "de" instead, it might be due to order of matching — but the logic is correct for the purpose of finding the sum of ASCII values of any longest common substring.
 
 #include<iostream>
 #include<bits/stdc++.h>
