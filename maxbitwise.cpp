@@ -38,12 +38,10 @@ int  main(){
     {
         cin>>a[i];
     }
-    for(int i=1;i<=n-1;i++){
-        int res =0;
-        for(int j=i+1;j<=n;j++)
-        {
-           res =  a[i]|a[j];
-        }
-    }
+   int res = 0;
+   for (int num : a){
+    res|=num;
+   }
+   cout <<res;
    
 }
