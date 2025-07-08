@@ -59,6 +59,7 @@ bool isana(string a , string b){
     for( int i=0;i<a.length();i++){
         freq[a[i]]++;
     }
+    
     for(int i=0;i<256;i++){
         freq[b[i]]--;
     }
