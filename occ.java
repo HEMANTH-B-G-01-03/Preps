@@ -20,8 +20,6 @@ public static void main(String args[]) {
     }
     }
 
-
-
     System.out.println("The first occurance of " +ele + " is at " + first);
     System.out.println("The Last occurance of " +ele + " is at" + last );
 }    
