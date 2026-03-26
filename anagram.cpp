@@ -63,7 +63,7 @@ bool isana(string a , string b){
     for(int i=0;i<256;i++){
         freq[b[i]]--;
     }
-    for(int i=0;i<256;i++){
+    for(int i=0;i<b.length();i++){
         if(freq[i]!=0){
             return false;
         }
@@ -74,7 +74,7 @@ bool isana(string a , string b){
  int main (){
     string a="abcd";
     string b="ab";
-    if(true){
+    if(isana(a,b)){
         cout<<" it is anagram";
     }
     else{
