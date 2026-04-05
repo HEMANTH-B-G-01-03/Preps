@@ -20,11 +20,11 @@ int main(){
     int n;
     cout<<" enter the number to checked ";
     cin>>n;
-   
+   int temp = n ;
     int count = 0;
-    while(n>0){
+    while(temp>0){
         count++;
-        n/=10;
+        temp/=10;
     }
      bool ans=arm(n , count);
 
