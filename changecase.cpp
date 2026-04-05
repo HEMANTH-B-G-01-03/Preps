@@ -15,12 +15,13 @@ string  convert(string a){
     int num=a.length();
 
     for(int i=0;i<num;i++){
-         if(a[i]>=65 && a[i]<=90){
+         if(a[i]>='A' && a[i]<='Z'){
             uppcount++;
          }
-         if(a[i]>97&&a[i]<=122){
+         if(a[i]>'a'&&a[i]<='z'){
             lowcount++;
          }
+        }
 
          if(uppcount>lowcount){
             for(int i=0;i<num;i++){

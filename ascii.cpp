@@ -3,6 +3,9 @@
 #include<vector>
 using namespace std ;
 
+
+
+// asci value of A -65-90 a 97-122    
 int main(){
    // int a []= {796115110113721110141108}
     int n ;
