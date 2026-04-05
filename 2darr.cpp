@@ -27,13 +27,14 @@
         }
        }
      }
+
      else {
-        vector<vector<int>> b;
-        cout<<" enter the ni if rowas ans col \n";
-        int q ,r;
-        cin>>q>>r;
+        vector< vector<int> > b;
+        cout<<" enter the no of rows and col \n";
+        int q ,c;
+        cin>>q>>c;
         for( int i=0;i<q;i++){
-            for( int j=0;j<r;j++){
+            for( int j=0;j<c;j++){
                 cout<<"enter the element at the place ";
                 cin>>b[i][j];
                 
@@ -42,7 +43,7 @@
             cout<<" enter the tar";
             cin>>tar;
             for( int i=0;i<q;i++){
-                for( int j=0;j<r;j++){
+                for( int j=0;j<c;j++){
                      if(tar==b[i][j]){
                          cout<<" found in the 2d arrayt";
                      }
