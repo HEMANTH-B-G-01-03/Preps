@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-   
+   // this is the brute fore approach
     vector<int>nums={2,7,11,15};
     int t=9;
     vector<int>arr;

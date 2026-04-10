@@ -25,10 +25,11 @@ public:
                     (s[i] == '}' && top != '{') ||
                     (s[i] == ')' && top != '(') ||
                     (s[i] == ']' && top != '[')
-                    ) 
+                    )
+                    
                     {
                     return false;
-                }
+                    }
                 
                 // If matched, pop the top element
                 a.pop_back();
