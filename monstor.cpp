@@ -17,8 +17,6 @@ int minPeopleKilled(string s) {
         }
         else if(c == '@' || c == '$'){
             if(pplcnt>0){
-
-            
             group.push_back(pplcnt);
             pplcnt=0;
             }

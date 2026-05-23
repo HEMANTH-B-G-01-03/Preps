@@ -1,4 +1,4 @@
-//  given an array [1223 , 234 ,3445 ,456 ] we neeed to remove the max and min dig and then add all of the numbers 
+`x//  given an array [1223 , 234 ,3445 ,456 ] we neeed to remove the max and min dig and then add all of the numbers 
 
 #include <iostream>
 #include <vector>

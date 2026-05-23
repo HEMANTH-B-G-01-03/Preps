@@ -6,7 +6,7 @@ using namespace std;
 
 int start(std::string a, std::string b) {
     // Store all unique characters from string b into a hash set for efficient lookups.
-    std::unordered_set<char> d;
+    unordered_set<char> d;
     for (char c : b) {
         d.insert(c);
     }
